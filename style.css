@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
 }
 body {
   height: 100vh;
@@ -13,6 +16,12 @@ body {
   background-color: white;
   height: 35px;
   width: 85px;
-  border: 2px solid black;
+  border: 2px solid #98a1bc;
   border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 2px 2px 7px #555879, 1px 1px 15px #ded3c4;
+}
+.click:hover {
+  box-shadow: 5px 5px 9px #555879, 3px 3px 20px #ded3c4;
+  transform: scale(1.01);
 }
