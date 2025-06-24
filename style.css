@@ -3,6 +3,16 @@
   padding: 0px;
   box-sizing: border-box;
 }
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .click {
   background-color: white;
+  height: 35px;
+  width: 85px;
+  border: 2px solid black;
+  border-radius: 10px;
 }
